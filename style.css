@@ -595,6 +595,10 @@ article p {
         text-align: center;
     }
 
+.about-me {
+    margin-top: 1.5em;
+}
+
     .hr-heading {
         margin-top: 1rem;
     }

@@ -1,3 +1,179 @@
+@font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Thin.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Thin.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 100;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-ThinItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-ThinItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraLight.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraLight.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 200;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraLightItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraLightItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Light.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Light.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-LightItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-LightItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Regular.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Regular.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Italic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Italic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Medium.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Medium.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-MediumItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-MediumItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-SemiBold.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-SemiBold.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-SemiBoldItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-SemiBoldItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Bold.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Bold.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-BoldItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-BoldItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraBold.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraBold.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraBoldItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-ExtraBoldItalic.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Roman-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-Black.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-Black.woff") format("woff"); }
+  @font-face {
+    font-family: 'Public Sans';
+    font-style: italic;
+    font-weight: 900;
+    src: url("/assets/fonts/public-sans/variable/Public-Sans-Italic-VF.woff2") format("woff2-variations"), url("/assets/fonts/public-sans/webfonts/PublicSans-BlackItalic.woff2") format("woff2"), url("/assets/fonts/public-sans/webfonts/PublicSans-BlackItalic.woff") format("woff"); }
+    @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Thin.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Thin.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Thin.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Thin.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 100;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-ThinItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-ThinItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-ThinItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-ThinItalic.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 200;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Light.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Light.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Light.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 200;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-LightItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-LightItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-LightItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-LightItalic.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 300;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Book.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 300;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BookItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BookItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BookItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BookItalic.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Medium.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Medium.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Medium.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 400;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-MediumItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-MediumItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-MediumItalic.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 500;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Semibold.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Semibold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Semibold.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Semibold.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 500;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-SemiboldItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-SemiboldItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-SemiboldItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-SemiboldItalic.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Bold.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Bold.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Bold.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 700;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BoldItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BoldItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-BoldItalic.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: normal;
+    font-weight: 800;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Heavy.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Heavy.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Heavy.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-Heavy.svg#webfont") format("svg"); }
+  @font-face {
+    font-family: 'CooperHewitt';
+    font-style: italic;
+    font-weight: 800;
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.eot");
+    src: url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.woff") format("woff"), url("/assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.svg#webfont") format("svg"); }
+  
+
 /* ---- reset ---- */
 
 html {
@@ -9,7 +185,7 @@ html {
 }
 
 body {
-    font-family: 'Lato', 'Arial';
+    font-family: 'Public Sans', 'Lato', 'Arial';
     margin: 0;
     color:#2A2A2A;
     line-height: 1.6rem;
@@ -40,7 +216,7 @@ body {
 h1 {}
 
 h2 {
-    font-family: 'Lato', serif;
+    font-family: 'CooperHewitt', 'Lato', serif;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 54px;
@@ -48,7 +224,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Lato', serif;
+    font-family: 'CooperHewitt', 'Lato', serif;
     font-size: 35px;
     text-align: center;
 }
@@ -106,7 +282,7 @@ nav {
 .pitch {
     font-size: 54px;
     line-height: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'CooperHewitt', 'Lato', sans-serif;
     font-weight: bold;
     color: #2a2a2a;
     text-align:left;

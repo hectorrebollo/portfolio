@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Rectangle-path Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-path-Copy-2" fill-rule="nonzero">
+            <rect id="Rectangle-path-Copy" fill="#12100E" x="0" y="0" width="48" height="48" rx="10"></rect>
+            <path d="M38.9356583,12.5295943 C38.806219,12.210043 38.5032251,12.0013752 38.1666667,12 L9.83333333,12 C9.37385493,12.0018792 9.00182697,12.3845365 9,12.8571429 L9,35.1428571 C9,35.6162441 9.37309604,36 9.83333333,36 L38.1666667,36 C38.626904,36 39,35.6162441 39,35.1428571 L39,12.8571429 C38.9996645,12.7446743 38.9778014,12.6333744 38.9356583,12.5295943 Z M24,26.21652 L11.84505,13.7142857 L36.15495,13.7142857 L24,26.21652 Z M10.6666667,34.2857143 L10.6666667,14.9263371 L23.4108333,28.0345714 C23.5670683,28.1953544 23.7790175,28.2856884 24.000025,28.2856884 C24.2210325,28.2856884 24.4329817,28.1953544 24.5892167,28.0345714 L37.3333333,14.9263371 L37.3333333,34.2857143 L10.6666667,34.2857143 Z" id="Shape" stroke="#FFFFFF" stroke-width="1.9" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

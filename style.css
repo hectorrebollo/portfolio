@@ -321,16 +321,15 @@ nav {
     margin-left: auto;
 }
 
-.about-me img {
-    width: 40%;
-    height: 40%;
-}
-
-#social-media-logo {
+.social-media-logo {
+    margin-right: 15px;
     width: 30px;
     height: 30px;
     fill: #9c9c9c;
-    margin-right: 15px;
+    fill: #2a2a2a;
+}
+a:hover .social-media-logo {
+    fill: #055EA7;
 }
 
 /*--- experience section ---*/

@@ -316,12 +316,18 @@ nav {
 }
 
 .social-media-logo {
-    margin-right: 15px;
     width: 30px;
     height: 30px;
     fill: #9c9c9c;
     fill: #2a2a2a;
 }
+
+.social-media-group-of-logos {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
 a:hover .social-media-logo {
     fill: #055EA7;
 }
@@ -460,6 +466,21 @@ article p {
     margin-right: auto;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    color: #9B9B9B;
+}
+
+footer .social-media-group-of-logos {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ---- media queries ---- */
   

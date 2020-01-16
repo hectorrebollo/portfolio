@@ -339,7 +339,8 @@ a:hover .social-media-logo {
 }
 
 #experience-section {
-    margin-top: 100px;
+    margin-top: -210px;
+    padding-top: 100px;
 }
 
 .experience-grid p {
@@ -453,7 +454,7 @@ article p {
 
 /* --- Placeholders for navigation ---*/
 
-#test {
+#about-hector {
     height: 100px;
     margin: 0;
     padding: 0;
@@ -614,8 +615,13 @@ footer .social-media-group-of-logos {
         margin-bottom: 10px;
     }
 
+    #last-case-study {
+        margin-bottom: 100px;
+    }
+
     #experience-section {
-        margin-top: 150px;
+        margin-top: -210px;
+        padding-top: 100px;
     }
 
     .pitch {

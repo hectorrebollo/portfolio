@@ -648,3 +648,19 @@ footer .social-media-group-of-logos {
 }
 
 
+.experience-card-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-card {
+    max-width: 30%;
+}
+
+.experience-cards-text {
+   
+}
+
+.experience-2021-img {
+    max-width: 100%;
+}

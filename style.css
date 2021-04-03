@@ -448,10 +448,16 @@ article p {
     color: white;
     padding: 10px 50px;
     border-radius: 30px;
+    /* ---  box-shadow: 0px 1px 1px #B7BFC5; ---*/
 }
 
 .button:hover {
-    background-color: rgb(9, 124, 218);
+    /* --- background-color: rgb(9, 124, 218); ---*/
+    background-color: #074f8a;
+}
+
+.button:active {
+
 }
 
 /* --- Placeholders for navigation ---*/

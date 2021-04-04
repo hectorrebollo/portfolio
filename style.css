@@ -230,6 +230,8 @@ h3 {
 h4 {
     font-size: 1.3em;
     margin-bottom: 1em;
+    text-align: center;
+    min-height: 60px;
 }
 
 /* ---- header ---- */
@@ -446,10 +448,16 @@ article p {
     color: white;
     padding: 10px 50px;
     border-radius: 30px;
+    box-shadow: 0px 1px 1px #B7BFC5;/
 }
 
 .button:hover {
-    background-color: rgb(9, 124, 218);
+    /* --- background-color: rgb(9, 124, 218); ---*/
+    background-color: #074f8a;
+}
+
+.button:active {
+
 }
 
 /* --- Placeholders for navigation ---*/
@@ -483,6 +491,25 @@ footer .social-media-group-of-logos {
     margin-right: auto;
 }
 
+/* ---- experience section ---- */
+
+.experience-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-card {
+    max-width: 30%;
+}
+
+.experience-2021-svg {
+    max-height: 50px;
+    fill: #D8110B;
+    display: block;
+    margin: auto;
+}
+
+
 /* ---- media queries ---- */
   
 @media (max-width: 1080px) {
@@ -493,6 +520,7 @@ footer .social-media-group-of-logos {
 
 
 }
+
 
 @media (max-width: 900px) {
     .header-brand {
@@ -559,6 +587,28 @@ footer .social-media-group-of-logos {
         margin-left: 10%;
         margin-right: 10%;
     }
+
+
+    .experience-card {
+        min-width: 270px;
+    }
+
+
+    .experience-card-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .experience-card-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .experience-card {
+        max-width: 30%;
+        margin: auto;
+    }
+
+    
 }
 
 @media (max-width: 660px) {
@@ -644,6 +694,13 @@ footer .social-media-group-of-logos {
 
     article {
         margin-bottom: 150px;
+    }
+}
+
+
+@media (max-width: 599px) {
+    .experience-card {
+        margin-top: 35px;
     }
 }
 

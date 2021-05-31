@@ -172,7 +172,7 @@
     font-weight: 800;
     src: url("assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.eot");
     src: url("assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.woff") format("woff"), url("assets/fonts/CooperHewitt-WebFonts-public/CooperHewitt-HeavyItalic.svg#webfont") format("svg"); }
-  
+
 
 /* ---- reset ---- */
 
@@ -262,6 +262,10 @@ header a:hover {
     color: #055EA7;
 }
 
+header a.active {
+    color: inherit;
+}
+
 .nav-list {
     margin-top: 30px;
 }
@@ -341,6 +345,11 @@ a:hover .social-media-logo {
 }
 
 #experience-section {
+    margin-top: -210px;
+    padding-top: 100px;
+}
+
+#background {
     margin-top: -210px;
     padding-top: 100px;
 }
@@ -511,7 +520,7 @@ footer .social-media-group-of-logos {
 
 
 /* ---- media queries ---- */
-  
+
 @media (max-width: 1080px) {
     .hector {
         margin-left: auto;
@@ -551,17 +560,17 @@ footer .social-media-group-of-logos {
     article {
         width: 90%;
     }
-    
+
     .case-study-intro {
         flex-direction: column;
     }
-    
+
     .case-study-intro img {
         margin-left: auto;
         margin-right: auto;
         order: -2;
     }
-    
+
     .case-study-text {
         margin-left: auto;
         margin-right: auto;
@@ -602,13 +611,13 @@ footer .social-media-group-of-logos {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .experience-card {
         max-width: 30%;
         margin: auto;
     }
 
-    
+
 }
 
 @media (max-width: 660px) {
@@ -630,11 +639,11 @@ footer .social-media-group-of-logos {
     .case-study-left .case-study-intro .case-study-text {
         margin-left: auto;
     }
-    
+
     .case-study-right .case-study-intro .case-study-text {
         margin-right: auto;
     }
-    
+
     header {
         flex-direction: column;
     }
@@ -674,6 +683,11 @@ footer .social-media-group-of-logos {
         padding-top: 100px;
     }
 
+    #background {
+        margin-top: -210px;
+        padding-top: 100px;
+    }
+
     .pitch {
         font-size: 35px;
         margin: 1rem;
@@ -703,5 +717,3 @@ footer .social-media-group-of-logos {
         margin-top: 35px;
     }
 }
-
-

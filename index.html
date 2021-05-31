@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
@@ -12,17 +12,18 @@
 </head>
 <body>
     <header>
-        <a href="./index.html"><h1 class="header-brand">Héctor Rebollo</h1></a>
+        <a href="/"><h1 class="header-brand">Héctor Rebollo</h1></a>
         <nav>
             <ul class="nav-list">
-                <li><a href="./index.html#about-hector">About</a></li>
-                <li><a href="./index.html#case-studies" id="selected-nav">Case Studies</a></li>
-                <li><a href="./index.html#experience-section">Experience</a></li>
+                <li><a href="#about-hector">About</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#experience-section">Experience</a></li>
+                <li><a href="#background">Background</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="about-hector"></div>
+        <div class="nav-section" id="about-hector"></div>
         <div class="pitch" id="about-me">
             <p >Hello! I’m <span class="name-colored">Héctor Rebollo</span>.<br> UX Designer & Psychologist</p>
         </div>
@@ -49,7 +50,7 @@
                     In the topic of User Experience I’m a strong advocate for <strong>user research as the pillar of design decisions</strong>. I’m convinced that collecting information about people’s needs, goals, mental models, expectations, and usage patterns in all stages of a product lifecycle help teams make better decisions not only about what path to take a design but also about how and what to prioritize. </p> -->
 
 
-                    <div id="case-studies" />
+                    <div class="nav-section" id="case-studies" />
             </article>
         </section>
 <!-- Section with an small introduction of each case study. Each one with a button linking to the reports -->
@@ -114,7 +115,7 @@
 
         </section>
 
-        <section class="experience-2011" id="experience-section">
+        <section class="experience-2021 nav-section" id="experience-section">
             <h3>Experience</h3>
             <article class="experience-card-wrapper">
                 <div class="experience-card">
@@ -126,7 +127,7 @@
                         <li><strong>Design of new features</strong> from conception to high fidelity prototypes</li>
                         <li><strong>Redesign</strong> of main dashboard for different types of users</li>
                         <li>Assess and refine <strong>user flows and website navigation</strong></li>
-                    </ul> 
+                    </ul>
                 </div>
                 <div class="experience-card">
                     <svg class="experience-2021-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96-96 42.98-96 96 42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"/></svg>
@@ -138,7 +139,7 @@
                         <li>Prepare and perform <strong>onboarding </strong>sessions</li>
                         <li>Communication with <strong>external companies and stakeholders</strong></li>
                         <li>Sing <strong>karaoke</strong> in company celebrations</li>
-                    </ul> 
+                    </ul>
                 </div>
                 <div class="experience-card">
                     <svg class="experience-2021-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M139.61 35.5a12 12 0 0 0-17 0L58.93 98.81l-22.7-22.12a12 12 0 0 0-17 0L3.53 92.41a12 12 0 0 0 0 17l47.59 47.4a12.78 12.78 0 0 0 17.61 0l15.59-15.62L156.52 69a12.09 12.09 0 0 0 .09-17zm0 159.19a12 12 0 0 0-17 0l-63.68 63.72-22.7-22.1a12 12 0 0 0-17 0L3.53 252a12 12 0 0 0 0 17L51 316.5a12.77 12.77 0 0 0 17.6 0l15.7-15.69 72.2-72.22a12 12 0 0 0 .09-16.9zM64 368c-26.49 0-48.59 21.5-48.59 48S37.53 464 64 464a48 48 0 0 0 0-96zm432 16H208a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h288a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H208a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h288a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H208a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h288a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"/></svg>
@@ -149,12 +150,12 @@
                         <li>Collect and transform data into <strong>actionable</strong> items to improve student experience</li>
                         <li><strong>Hiring</strong> and onboarding</li>
                         <li>Create, optimize and <strong>document</strong> program processes</li>
-                    </ul> 
+                    </ul>
                 </div>
             </article>
         </section>
 
-        <section class="about-me" >
+        <section class="about-me nav-section" id="background">
             <article class="experience-grid">
                 <h3>Background</h3>
                 <img src="./assets/images/hector-talk copy 2.jpg" alt="Hector teaching a masterclass" id="img-experience">
@@ -190,5 +191,6 @@
 
         <p>Coded with 🥑 by Héctor</p>
     </footer>
+    <script src="main.js" charset="utf-8"></script>
 </body>
 </html>
